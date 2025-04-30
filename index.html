@@ -30,24 +30,25 @@
             max-width: 600px; /* Atur max width sesuai kebutuhan */
         }
 
-        .image-container, .gif-container {
+        .gif-container, .image-container {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
         }
 
-        .image-container gif {
+        .gif-container gif {
             width: 100%; /* Sesuai kebutuhan */
             height: auto;
             cursor: pointer;
         }
-.image-container img {
-    width: 100%;
-    height: 305px; 
-    object-fit: cover;
-    cursor: pointer;
-}
+
+          .image-container img {
+                width: 100%;
+                height: 305px; 
+                object-fit: cover;
+                cursor: pointer;
+        }
 
 
     </style>
@@ -55,9 +56,9 @@
 <body>
 
     <div class="container">
-        <!-- GIF -->
-        <div class="gif-container">
-            <image autoplay="" loop="" muted="" playsinline="" onclick="goToNextPage()">
+        <!-- GIF/image -->
+        <div class="image-container">
+            <gif autoplay="" loop="" muted="" playsinline="" onclick="goToNextPage()">
                 <source src="MyGif_1746037476993.gif" type="gif"> 
             </gif>
         </div>
