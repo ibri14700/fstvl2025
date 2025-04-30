@@ -30,14 +30,14 @@
             max-width: 600px; /* Atur max width sesuai kebutuhan */
         }
 
-        .gif-container, .image-container {
+        .video-container, .image-container {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
         }
 
-        .gif-container gif {
+        .vedeo-container video {
             width: 100%; /* Sesuai kebutuhan */
             height: auto;
             cursor: pointer;
@@ -56,11 +56,11 @@
 <body>
 
     <div class="container">
-        <!-- GIF/image -->
-        <div class="image-container">
-            <gif autoplay="" loop="" muted="" playsinline="" onclick="goToNextPage()">
-                <source src="MyGif_1746037476993.gif" type="gif"> 
-            </gif>
+        <!-- Video/GIF -->
+        <div class="video-container">
+            <video autoplay="" loop="" muted="" playsinline="" onclick="goToNextPage()">
+                <source src="MyGif_1746037476993.mp4" type=""> 
+            </video>
         </div>
 
         <!-- Gambar -->
